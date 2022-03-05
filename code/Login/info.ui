@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>info</class>
+ <widget class="QWidget" name="info">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#ffffff</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>480</width>
+     <height>125</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>480</width>
+     <height>125</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>480</width>
+     <height>125</height>
+    </size>
+   </property>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>91</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>91</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 91px;
+height: 91px;
+background-color: #557763;
+text-align: center;
+font-size: 16px;
+font-family: Roboto, Roboto-Bold;
+font-weight: Bold;
+color: #ffffff;
+line-height: 50px;
+border-radius:45px; </string>
+    </property>
+    <property name="text">
+     <string>即时呼叫</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>91</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 91px;
+height: 91px;
+background-color: #557763;
+text-align: center;
+font-size: 16px;
+font-family: Roboto, Roboto-Bold;
+font-weight: Bold;
+color: #ffffff;
+line-height: 50px;
+border-radius:45px; </string>
+    </property>
+    <property name="text">
+     <string>预约乘车</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>103</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QToolButton" name="toolButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">width: 80px;
+height: 30px;
+background: #557763;
+border: 1px solid #797979;
+border-radius: 8px;
+font-size: 13px;
+font-family: Roboto, Roboto-Bold;
+font-weight: Bold;
+text-align: center;
+color: #ffffff;
+line-height: 16px;</string>
+      </property>
+      <property name="text">
+       <string>成为车主</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>251</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>118</width>
+        <height>118</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>118</width>
+        <height>118</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image:url(:/images/head.jpeg)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_8" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>306</y>
+     <width>451</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QWidget" name="widget_10" native="true"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QWidget" name="widget_9" native="true">
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>0</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image:url(:/images/right.png)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">width: 66px;
+height: 20px;
+opacity: 1;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #556f59;
+line-height: 0px;
+
+</string>
+      </property>
+      <property name="text">
+       <string>我的订单</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="3">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="3">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>61</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 66px;
+height: 20px;
+opacity: 1;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #556f59;
+line-height: 0px;
+</string>
+   </property>
+   <property name="text">
+    <string>手机号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>81</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 66px;
+height: 20px;
+opacity: 1;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #556f59;
+line-height: 0px;
+</string>
+   </property>
+   <property name="text">
+    <string>用户名：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>200</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 66px;
+height: 20px;
+opacity: 1;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #556f59;
+line-height: 0px;
+</string>
+   </property>
+   <property name="text">
+    <string>不知道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>250</y>
+     <width>161</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 66px;
+height: 20px;
+opacity: 1;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #556f59;
+line-height: 0px;
+</string>
+   </property>
+   <property name="text">
+    <string>不知道</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

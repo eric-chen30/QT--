@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>oncar</class>
+ <widget class="QMainWindow" name="oncar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="maximumSize">
+          <size>
+           <width>500</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+width: 144px;
+height: 50px;
+opacity: 1;
+font-size: 36px;
+font-family: Roboto, Roboto-Bold;
+font-weight: Bold;
+text-align: left;
+color: #556f59;
+line-height: 0px;
+}</string>
+         </property>
+         <property name="text">
+          <string>您已上车</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="maximumSize">
+          <size>
+           <width>500</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QWidget{
+width: 500px;
+height: 64px;
+opacity: 1;
+background: #556f59;
+border: 1px solid #777777;
+}</string>
+         </property>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 18px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+}</string>
+          </property>
+          <property name="text">
+           <string>车牌号：</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>20</y>
+            <width>161</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 191px;
+height: 39px;
+opacity: 1;
+font-size: 28px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 0px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+
+}</string>
+          </property>
+          <property name="text">
+           <string>鄂A 0D123</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_4" native="true">
+         <property name="maximumSize">
+          <size>
+           <width>500</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QWidget{
+width: 500px;
+height: 64px;
+opacity: 1;
+background: #556f59;
+border: 1px solid #777777;
+}</string>
+         </property>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>30</y>
+            <width>51</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 18px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+}</string>
+          </property>
+          <property name="text">
+           <string>车型：</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>30</y>
+            <width>71</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 191px;
+height: 39px;
+opacity: 1;
+font-size: 28px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 0px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+
+}</string>
+          </property>
+          <property name="text">
+           <string>白色</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>30</y>
+            <width>131</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 191px;
+height: 39px;
+opacity: 1;
+font-size: 28px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 0px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+
+}</string>
+          </property>
+          <property name="text">
+           <string>凯迪拉克</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <property name="maximumSize">
+          <size>
+           <width>500</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QWidget{
+width: 500px;
+height: 64px;
+opacity: 1;
+background: #556f59;
+border: 1px solid #777777;
+}</string>
+         </property>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>30</y>
+            <width>71</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 18px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+}</string>
+          </property>
+          <property name="text">
+           <string>目的地：</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>20</y>
+            <width>201</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 191px;
+height: 39px;
+opacity: 1;
+font-size: 28px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 0px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+
+}</string>
+          </property>
+          <property name="text">
+           <string>中科开物大厦</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_5" native="true">
+         <property name="maximumSize">
+          <size>
+           <width>500</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QWidget{
+width: 500px;
+height: 64px;
+opacity: 1;
+background: #556f59;
+border: 1px solid #777777;
+}</string>
+         </property>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>30</y>
+            <width>171</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 18px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+}</string>
+          </property>
+          <property name="text">
+           <string>车辆距离目的地还剩</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>30</y>
+            <width>71</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 18px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+}</string>
+          </property>
+          <property name="text">
+           <string>米！</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>20</y>
+            <width>71</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+width: 191px;
+height: 39px;
+opacity: 1;
+font-size: 28px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 0px;
+border-width:0;
+border-style:outset;
+background-color:transparent;
+
+}</string>
+          </property>
+          <property name="text">
+           <string>2000</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

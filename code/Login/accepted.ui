@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>accepted</class>
+ <widget class="QDialog" name="accepted">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>10</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 150px;
+height: 50px;
+opacity: 1;
+font-size: 36px;
+font-family: Roboto, Roboto-Bold;
+font-weight: Bold;
+text-align: left;
+color: #3d5b49;
+line-height: 0px;</string>
+    </property>
+    <property name="text">
+     <string>接单</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>360</y>
+     <width>311</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 130px;
+height: 60px;
+opacity: 1;
+background:#ffb83b;
+
+border-radius: 6px;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: center;
+color: #ffffff;
+line-height: 17px;</string>
+    </property>
+    <property name="text">
+     <string>下车</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 130px;
+height: 60px;
+opacity: 1;
+background:#ffb83b;
+
+border-radius: 6px;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: center;
+color: #ffffff;
+line-height: 17px;</string>
+    </property>
+    <property name="text">
+     <string>上车</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>311</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 414px;
+height: 250px;
+opacity: 1;
+background: #6d8b72;
+font-size:7px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: center;
+color: #333333;
+line-height: 10px;
+border-radius: 3px;
+text-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15); </string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 15px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: left;
+color: #fafafa;
+line-height: 50px;</string>
+       </property>
+       <property name="text">
+        <string>起点：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 15px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: left;
+color: #fafafa;
+line-height: 50px;</string>
+       </property>
+       <property name="text">
+        <string>湖北</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 15px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: left;
+color: #fafafa;
+line-height: 50px;</string>
+       </property>
+       <property name="text">
+        <string>目的地：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 15px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: left;
+color: #fafafa;
+line-height: 50px;</string>
+       </property>
+       <property name="text">
+        <string>中科</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 15px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: left;
+color: #fafafa;
+line-height: 50px;</string>
+       </property>
+       <property name="text">
+        <string>乘客手机：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 15px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: left;
+color: #fafafa;
+line-height: 50px;</string>
+       </property>
+       <property name="text">
+        <string>0091</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="styleSheet">
+        <string notr="true">width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 15px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: left;
+color: #fafafa;
+line-height: 50px;</string>
+       </property>
+       <property name="text">
+        <string>订单状态：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="styleSheet">
+        <string notr="true">width: 54px;
+height: 50px;
+opacity: 1;
+font-size: 15px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+color: #ffa300;</string>
+       </property>
+       <property name="text">
+        <string>未开始</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

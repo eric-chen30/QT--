@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>appointment</class>
+ <widget class="QMainWindow" name="appointment">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>500</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>500</width>
+      <height>80</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+width: 144px;
+height: 50px;
+opacity: 1;
+font-size: 36px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #556f59;
+line-height: 0px;
+}</string>
+    </property>
+    <property name="text">
+     <string>预约乘车</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>500</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>500</width>
+      <height>350</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+width: 414px;
+height: 223px;
+opacity: 1;
+background: #6d8b72;
+font-size: 7px;
+font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+font-weight: Normal;
+text-align: center;
+color: #333333;
+line-height: 10px;
+text-shadow: 0px 3px 6px 0px rgba(0,0,0,0.15); 
+}</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QWidget" name="widget_2" native="true">
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>50</y>
+          <width>90</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+width: 90px;
+height: 50px;
+opacity: 1;
+font-size: 18px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+}</string>
+        </property>
+        <property name="text">
+         <string>选择时间：</string>
+        </property>
+       </widget>
+       <widget class="QTimeEdit" name="timeEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>40</y>
+          <width>201</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华文楷体</family>
+          <pointsize>16</pointsize>
+          <weight>9</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #ffffff;
+font: 75 16pt &quot;华文楷体&quot;;</string>
+        </property>
+        <property name="displayFormat">
+         <string>H:mm:ss</string>
+        </property>
+        <property name="time">
+         <time>
+          <hour>1</hour>
+          <minute>0</minute>
+          <second>0</second>
+         </time>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_3" native="true">
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>24</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei,Microsoft YaHei-Bold</family>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QComboBox{
+width: 123px;
+height: 33px;
+opacity: 1;
+background: #ffffff;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #6d8b7b;
+line-height: 17px;
+}</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>请选择出发地：</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>A地</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>B地</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>C地</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>D地</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>40</y>
+          <width>54</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+width: 90px;
+height: 50px;
+opacity: 1;
+font-size: 18px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+}</string>
+        </property>
+        <property name="text">
+         <string>起点：</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_4" native="true">
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>40</y>
+          <width>72</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+width: 90px;
+height: 50px;
+opacity: 1;
+font-size: 18px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #fafafa;
+line-height: 50px;
+}</string>
+        </property>
+        <property name="text">
+         <string>目的地：</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_3">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>24</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QComboBox{
+width: 123px;
+height: 33px;
+opacity: 1;
+background: #ffffff;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: left;
+color: #6d8b7b;
+line-height: 17px;
+}</string>
+        </property>
+        <property name="maxVisibleItems">
+         <number>20</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>请选择目的地：</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>A地</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>B地</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>C地</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>D地</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="submit">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>430</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+width: 98px;
+height: 43px;
+opacity: 1;
+background: #6d8b7b;
+border: 1px solid #797979;
+border-radius: 12px;
+font-size: 14px;
+font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+font-weight: Bold;
+text-align: center;
+color: #ffffff;
+line-height: 17px;
+alignment:alignHCenter
+}</string>
+    </property>
+    <property name="text">
+     <string>提交</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
